@@ -1,7 +1,7 @@
 import java.util.Date;
 import java.util.List;
 
-public class Order {
+public class Order implements IList{
     public Date dateRecieved;
     public boolean isPrepaid;
     public String number;
